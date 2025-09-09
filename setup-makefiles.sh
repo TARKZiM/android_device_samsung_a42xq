@@ -1,44 +1,21 @@
 #!/bin/bash
 #
-# Copyright (C) 2017-2021 The LineageOS Project
-#
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# If we're being sourced by the common script that we called,
+# stop right here. No need to go down the rabbit hole.
+if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
+    return
+fi
+
 set -e
 
-DEVICE_COMMON=a42xq
-VENDOR=samsung
+export DEVICE=a42xq
+export DEVICE_COMMON=sm7225-common
+export VENDOR=samsung
+export VENDOR_COMMON=${VENDOR}
 
-# Load extractutils and do some sanity checks
-MY_DIR="${BASH_SOURCE%/*}"
-if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
-
-ANDROID_ROOT="${MY_DIR}/../../.."
-
-HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
-if [ ! -f "${HELPER}" ]; then
-    echo "Unable to find helper script at ${HELPER}"
-    exit 1
-fi
-source "${HELPER}"
-
-# Initialize the helper
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
-
-# Warning headers and guards
-write_headers "a42xq"
-
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
-
-###################################################################################################
-# CUSTOM PART START                                                                               #
-###################################################################################################
-
-OUTDIR=vendor/$VENDOR/$DEVICE_COMMON
-
-###################################################################################################
-# CUSTOM PART END                                                                                 #
-###################################################################################################
-# Done
-write_footers
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
