@@ -46,7 +46,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a42xqxx-user 12 SP1A.210812.016 A426BXXU3DVE2 release-keys" \
-    BuildFingerprint=samsung/a42xqxx/qssi:12/SP1A.210812.016/A426BXXU3DVE2:user/release-keys \
+    BuildDesc="a42xqxx-user 12 SP1A.210812.016 A426BXXU8DXG2 release-keys" \
+    BuildFingerprint=samsung/a42xqxx/qssi:12/SP1A.210812.016/A426BXXU8DXG2:user/release-keys \
     DeviceProduct=a42xq \
     SystemName=a42xq
