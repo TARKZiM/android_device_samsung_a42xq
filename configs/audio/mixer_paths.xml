@@ -2581,13 +2581,13 @@
     <path name="handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="80" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="handset-lf">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="83" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="speaker">
@@ -3013,13 +3013,13 @@
     <path name="call-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="call-handset-hac">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="call-speaker">
@@ -3119,13 +3119,13 @@
     <path name="wifi-call-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="wifi-call-handset-hac">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="wifi-call-speaker">
@@ -3216,7 +3216,7 @@
     <path name="voice-call-forward">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="0" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="0" />
     </path>
 
     <path name="voice-call-forward-mic">
@@ -3242,7 +3242,7 @@
     <path name="call-tty-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="call-tty-headset">
@@ -3296,7 +3296,7 @@
     <path name="wifi-call-tty-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="wifi-call-tty-headset">
@@ -3350,13 +3350,13 @@
     <path name="voip-comm-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="voip-comm-handset-hac">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="voip-comm-speaker">
@@ -3403,13 +3403,13 @@
     <path name="voip-fmc-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="voip-fmc-handset-hac">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="voip-fmc-speaker">
@@ -3586,13 +3586,13 @@
     <path name="loopback-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="loopback-handset-dual-mic">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <path name="loopback-speaker">
@@ -3625,7 +3625,7 @@
     <path name="loopback-incallmusic-handset">
         <path name="rcv" />
         <ctl name="EAR PA GAIN" value="G_6_DB" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX0 HPH Digital Volume" value="84" />
     </path>
 
     <!-- TX part -->
